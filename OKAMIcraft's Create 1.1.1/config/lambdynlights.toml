@@ -1,0 +1,142 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				dolphin = true
+				pufferfish = true
+				item = true
+				zombie_villager = true
+				chest_minecart = true
+				tropical_fish = true
+				skeleton = true
+				bat = true
+				zombie = true
+				glow_squid = true
+				witch = true
+				glow_item_frame = false
+				squid = true
+				spider = true
+				creeper = true
+				player = true
+				enderman = true
+				slime = true
+				turtle = true
+				cod = true
+				tnt_minecart = true
+				frog = true
+				bee = true
+				drowned = true
+				cave_spider = true
+				pig = true
+				sheep = true
+				chicken = true
+				cow = true
+				cat = true
+				villager = true
+				iron_golem = true
+				wolf = true
+				rabbit = true
+				salmon = true
+				horse = true
+				polar_bear = true
+				fox = true
+				donkey = true
+				experience_orb = true
+				pillager = true
+				vindicator = true
+				allay = true
+				axolotl = true
+				armor_stand = true
+				item_frame = true
+				parrot = true
+				painting = true
+				potion = true
+				area_effect_cloud = true
+				boat = true
+				ocelot = true
+				arrow = true
+				silverfish = true
+				egg = true
+				wandering_trader = true
+				trader_llama = true
+				elder_guardian = true
+				guardian = true
+				trident = true
+				leash_knot = true
+				llama_spit = true
+				zombie_horse = true
+				strider = true
+				zombified_piglin = true
+				magma_cube = true
+				piglin_brute = true
+				piglin = true
+				ghast = true
+				blaze = true
+
+			[light_sources.settings.entities.naturalist]
+				rattlesnake = true
+				tortoise = true
+				duck = true
+				coral_snake = true
+				lizard = true
+				vulture = true
+				zebra = true
+				boar = true
+				rhino = true
+				snake = true
+				bass = true
+				lizard_tail = true
+				alligator = true
+				catfish = true
+				dragonfly = true
+				snail = true
+				butterfly = true
+				cardinal = true
+				bear = true
+				firefly = true
+				deer = true
+				robin = true
+				bluejay = true
+				canary = true
+				giraffe = true
+				lion = true
+
+			[light_sources.settings.entities.create]
+				super_glue = true
+				stationary_contraption = true
+
+			[light_sources.settings.entities.byg]
+				man_o_war = true
+
+			[light_sources.settings.entities.smallships]
+				cog = true
+				brigg = true
+				cannon_ball = true
+
+			[light_sources.settings.entities.vinery]
+				wandering_winemaker = true
+				mule = true
+
+			[light_sources.settings.entities.createbigcannons]
+				pitch_contraption = true
+
